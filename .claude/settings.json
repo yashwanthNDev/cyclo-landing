@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(curl -s -o \"c:/Users/Admin/OneDrive/Documents/Cycle/public/hero-bikes.jpg\" \"https://images.cnippet.dev/image/upload/v1770400411/img_23001.png\")",
+      "Bash(npm run:*)"
+    ]
+  }
+}

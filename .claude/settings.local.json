@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_evaluate",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(Start-Sleep -Seconds 5)",
+      "Bash(Get-Content \"C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Admin-OneDrive-Documents-Cycle\\\\8a69621c-13b1-4301-9e6a-59ded2433523\\\\tasks\\\\bzbzbo0js.output\")",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
