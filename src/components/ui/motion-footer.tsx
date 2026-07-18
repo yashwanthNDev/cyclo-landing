@@ -197,7 +197,10 @@ export function CinematicFooter() {
 
           {/* Main centre content */}
           <motion.div
-            style={{ y: contentY, opacity: contentOp }}
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-40px" }}
+            transition={{ duration: 0.85, ease: [0.16, 1, 0.3, 1] as const }}
             className="relative z-10 flex flex-1 flex-col items-center justify-center text-center px-6 mt-6 w-full max-w-5xl"
           >
             <h2 className="text-6xl md:text-[11vw] font-black footer-text-glow tracking-tighter mb-12 text-center w-full">
